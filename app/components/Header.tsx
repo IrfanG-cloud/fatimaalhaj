@@ -9,6 +9,7 @@ export default function Header() {
     const [navbar, setNavbar] = useState( false )
 
   return (
+    <>
     <nav className='w-full justisfy-between fixed top-0 right-0 z-20 bg-white py-2'>
         <div className='justify-between px-6 mx-auto md:flex md:items-center md;px-8 lg:max-w-8xl'>
             <div className='w-full flex justify-between md:items-center md:py-0'>
@@ -59,6 +60,7 @@ export default function Header() {
             </div>
         </div>
     </nav>
+    </>
   )
 }
 
