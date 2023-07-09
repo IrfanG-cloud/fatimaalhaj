@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #000000;
+}
+
+/* Hide Scrollbar for chrome, safari and opera */
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.hero-bg-image{
+  background-image: url(/bg.jpg);
+}
+
+
+
